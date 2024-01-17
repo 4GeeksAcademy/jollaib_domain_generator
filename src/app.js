@@ -22,7 +22,7 @@ for (let i = 0; i <= pronouns.length - 1; i++) {
     for (let k = 0; k <= nouns.length - 1; k++) {
       // console.log(pronouns[i] + adjs[j] + nouns[k]);
       for (let l = 0; l <= domain.length - 1; l++) {
-        console.log(nouns[k] + domain[l].substring(1, domain[l].length + 1));
+        //console.log(nouns[k] + domain[l].substring(1, domain[l].length + 1));
         if (
           nouns[k].substring(nouns[k].length - domain[l].length + 1) ==
           domain[l].substring(1, domain[l].length + 1)
